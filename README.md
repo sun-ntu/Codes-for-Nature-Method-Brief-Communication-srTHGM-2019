@@ -46,4 +46,4 @@ if you choose ‘all’, you will get Figure 2e, 2g, 2i, 2k, 2m, 2o and Suppleme
 #### Expected output: As indicated in Instruction
 
 #### Expected run time for demo on a "normal" desktop computer
--->  It takes less than 1 minutes for each image analyzed.
+It takes less than 1 minutes for each image analyzed.
