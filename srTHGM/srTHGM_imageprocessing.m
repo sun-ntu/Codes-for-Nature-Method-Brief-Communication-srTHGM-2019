@@ -70,12 +70,6 @@ for Exp = [4]
     
     K = ones(Pixel,Pixel);
 
-%     BgA = 342.4416;
-%     BgB = 355.84;
-%     BgC = 339.6952;
-%     BgA = 416.53;
-%     BgB = 417.7;
-%     BgC = 389.03;
     BgA = par(1);
     BgB = par(2);
     BgC = par(3);
@@ -174,14 +168,10 @@ for Exp = [4]
     fC = find(Croi_T);
 
     ip = iMp;
-%     rMA = (A>ip(1)-5*f1at.c1) & (A<ip(1)+5*f1at.c1);
-%     rMC = (C>ip(2)-5*f1ct.c1) & (C<ip(2)+5*f1ct.c1);
     rMA = (A>ip(1)-par(5)*f1at.c1) & (A<ip(1)+par(5)*f1at.c1);
     rMC = (C>ip(2)-par(5)*f1ct.c1) & (C<ip(2)+par(5)*f1ct.c1);
 
     ip = iCp;
-%     rCA = (A>ip(1)-5*f1at.c1) & (A<ip(1)+5*f1at.c1);
-%     rCC = (C>ip(2)-5*f1ct.c1) & (C<ip(2)+5*f1ct.c1);
     rCA = (A>ip(1)-par(5)*f1at.c1) & (A<ip(1)+par(5)*f1at.c1);
     rCC = (C>ip(2)-par(5)*f1ct.c1) & (C<ip(2)+par(5)*f1ct.c1);
 
