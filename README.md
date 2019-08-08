@@ -19,7 +19,7 @@ No required non-standard hardware
 For MATLAB installation instruction and typical install time:  
 Please refer to your software provider or The MathWorks, Inc., Massachusetts, USA.  
 For this code:  
-Simply download the file to your computer. Typical time: 10 seconds.  
+Simply download the file (including codes and demo data) to your computer. Typical time: less than 3 minutes.  
 
 ### Demo and Instruction for Use
 
@@ -46,4 +46,4 @@ if you choose ‘all’, you will get Figure 2e, 2g, 2i, 2k, 2m, 2o and Suppleme
 #### Expected output: As indicated in Instruction
 
 #### Expected run time for demo on a "normal" desktop computer
-It takes less than 1 minutes for each image analyzed.
+It takes less than 2 minutes for each code running.
