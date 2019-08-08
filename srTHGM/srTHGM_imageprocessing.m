@@ -223,9 +223,6 @@ for Exp = [4]
     
     numF = numel(imfinfo([Foldername '\demodata\' subFolder '\test\' allExp(Exp-1).name]));
     T = zeros(Pixel);
-    niF = zeros(1,numF);
-    nmF = zeros(1,numF);
-    NNsT = zeros(Pixel);
     
     for jF = 1:numF
         F = double(imread([Foldername '\demodata\' subFolder '\test\' allExp(Exp-1).name],jF));
