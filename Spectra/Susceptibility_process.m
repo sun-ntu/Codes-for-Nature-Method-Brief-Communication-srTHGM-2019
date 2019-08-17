@@ -95,14 +95,13 @@ Xexp_OA = interp1(ln(1:s:end),Xexp_OAt(1:s:end),ln,'spline',0);
 
 %% plot
 
-figure('Name','Susceptibility Spectra 1') % Fused silica; Water; Melanin
+figure('Name','Susceptibility Spectra 1') % Water; Melanin
 hold on
-plot(3*ln,Xexp_FS*1E22,'color',ctmap(1,:),'LineWidth',5)
 plot(3*ln,Xexp_W*1E22,'color',ctmap(2,:),'LineWidth',5)
 plot(3*ln,Xexp_Me*1E22,'color',ctmap(5,:),'LineWidth',5)
 hold off
 xlim([1230 1290]);
-legend({'Fused silica','Water','Melanin'},'Location','Northeast','fontsize',12)
+legend({'Water','Melanin'},'Location','Northeast','fontsize',12)
 xlabel('Wavelength(nm)','fontsize',20,'FontWeight','bold');
 ylabel('Nonlinear susceptibility (10^-^2^2 m^2V^-^2)','fontsize',20,'FontWeight','bold');
 box on;
