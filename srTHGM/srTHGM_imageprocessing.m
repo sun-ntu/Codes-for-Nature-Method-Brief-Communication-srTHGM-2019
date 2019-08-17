@@ -206,20 +206,8 @@ for Exp = [4]
     
     figure('Name','SHG image')
     imshow(MSHGb*3)
-
+    
     %% Oxygenation Saturation Calculation
-    
-    sT = (calValue(1)/calValue(3)-CA/mC)/(calValue(1)/calValue(3)-calValue(2)/calValue(3));
-    sT = sT.*rM;
-    
-    d = 7;
-    [sTimb,sTim] = blurimN(sT,rM,Mroi,d,cmap2);
-    
-    figure('Name','Subcellular RBC Oxygenation Saturation')
-    imshow(sTimb(rr1,rr2,:),cmap2);
-    cbh = colorbar;
-    set(cbh,'YTick',0:0.2:1)
-    set(cbh,'YTickLabel',{'0%','20%','40%','60%','80%','100%'})
     
     numF = numel(imfinfo([Foldername '\demodata\' subFolder '\test\' allExp(Exp-1).name]));
     T = zeros(Pixel);
