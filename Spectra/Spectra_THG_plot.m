@@ -25,9 +25,9 @@ pbaspect([1.7 1 1])
 
 % Normalized THG spectra
 
-figure('Name','Normalized THG spectra 1') % Fused silica; Water; Melanin
+figure('Name','Normalized THG spectra 1') % Water; Melanin
 hold on;
-for q6=[1 2 5]
+for q6=[2 5]
     if (spec(2*q6)~=0)
         plot(ln,avg_nn(q6,:),'Color',ctmap(q6,:),'LineWidth',5);
     end
@@ -39,7 +39,7 @@ xlabel('Wavelength(nm)','fontsize',20,'FontWeight','bold');
 ylabel('Normalized Intensity','fontsize',20,'FontWeight','bold');
 set(gca,'XTick',412:2:428,'FontWeight','bold') 
 set(gca,'YTick',0.2:0.2:1,'FontWeight','bold') 
-legend(Tag2(1,[1 2 5]),'Fontsize',12);
+legend(Tag2(1,[2 5]),'Fontsize',12);
 box on;
 set(gca,'fontsize',15)
 set(gca,'linewidth',2)
