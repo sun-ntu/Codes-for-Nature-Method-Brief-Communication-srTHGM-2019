@@ -28,7 +28,7 @@ Simply download the file (including codes and demo data) to your computer. Typic
 #### For “Spectra.m”:
 (i) First download “ Spectra ” file, which includes demo data and codes.  
 (ii) Start MATLAB and run " Spectra.m ".  
-(iii) You will get Figure 1e, 1f, and 1h-1m.  
+(iii) You will get Figure 1e, and 1g-1l.  
 
 #### For “Mice_In_Vivo_pseudo_color.m”:
 (i) First download “ Mice_in_vivo_pseudo_color ” file, which includes demo data and codes.  
