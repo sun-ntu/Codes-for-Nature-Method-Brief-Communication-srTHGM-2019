@@ -1,4 +1,4 @@
-# Codes-for-Nature-Method-Brief-Communication-srTHGM-2019
+# UFO-srTHG-2019
 Spectra.m: plot the measured spectrum of the laser we use, plot the THG spectra of seven different samples, and calculate and plot the corresponding nonlinear susceptibility of each sample. (For Figure 1e, 1f, and 1h-1m.)
 
 Mice_In_Vivo_pseudo_color.m: show image of tumor microenvironment of a formed melanoma tumor on a mouse model with pseudo color, and plot its pseudo-colored image strength distribution of each channel. (For Figure 2b and 2c.)
