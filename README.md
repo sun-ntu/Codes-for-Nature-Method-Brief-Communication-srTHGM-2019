@@ -3,7 +3,7 @@ Spectra.m: plot the measured spectrum of the laser we use, plot the THG spectra 
 
 Mice_In_Vivo_pseudo_color.m: show image of tumor microenvironment of a formed melanoma tumor on a mouse model with pseudo color, and plot its pseudo-colored image strength distribution of each channel. (For Figure 3b and 3c.)
 
-srTHGM.m: program for calculating saturation oxygenation of in vivo red blood cells for mice and human, based on the calculation result of calibration from ex vivo red blood cells and collagen of mice and human. (Figure 4b, 4e, 4h and 5a-5j.)
+srTHGM.m: program for calculating saturation oxygenation of in vivo red blood cells for mice and human, based on the calculation result of calibration from ex vivo red blood cells and collagen of mice and human. (Figure 4b, 4e, 4h, 5a-5j and Supplementary figures.)
 
 
 ## Instructions for programs
@@ -41,7 +41,7 @@ Simply download the file (including codes and demo data) to your computer. Typic
 (iii) When asked the demo data, ‘mice’, ‘human’ or ‘all’, enter the number of the part you want to analyze.  
 (iv) If you choose ‘mice’, you will get Figure 4b, 4e and 4h;  
 if you choose ‘human’, you will get Figure 5e, 5f and 5h;   
-if you choose ‘exvivo_human’, you will get Figure 5a-5d, 5g, and 5i-5j.  
+if you choose ‘exvivo_human’, you will get Figure 5a-5d, 5g, 5i-5j and Supplementary figures.  
 
 #### Expected output: As indicated in Instruction
 
