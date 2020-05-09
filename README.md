@@ -19,7 +19,7 @@ No required non-standard hardware
 For MATLAB installation instruction and typical install time:  
 Please refer to your software provider or The MathWorks, Inc., Massachusetts, USA.  
 For this code:  
-Simply download the file (including codes and demo data) to your computer. Typical time: less than 3 minutes.  
+Simply download the file (including codes and demo data) to your computer. Typical time: less than 10 minutes.  
 
 ### Demo and Instruction for Use
 
